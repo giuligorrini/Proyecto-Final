@@ -1,0 +1,29 @@
+li{
+    list-style: none;
+}
+
+.nav-button-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1.3rem;
+   
+}
+
+.btn_pagination{
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #EFE081 ;
+    border: 2px solid  #0B7072;
+    border-radius: 15px;
+    color:#0B7072;
+    padding: .5rem;
+}
+
+.btn_pagination:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 12px 2px#0B7072 ;
+    transition: .3s;    
+}

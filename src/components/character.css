@@ -1,0 +1,28 @@
+.container-character{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-character{
+    min-width: 200px;
+    border: 5px solid #0B7072;
+    border-radius: 15px;
+    background-color: #EFE081;
+    width: 350px;
+    margin: 10px;
+}
+ .card-img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    border-bottom: 2px solid #0B7072;
+ }
+
+ h5{
+    font-size: 30px;
+    text-align: center;
+ }
+ .card-contenido{
+    font-size: 20px;
+    margin: 10px;
+ }
+
